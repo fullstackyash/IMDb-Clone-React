@@ -4,7 +4,7 @@ import NavigationList from './NavigationList'
 
 function Header() {
   return (
-    <div className='flex m-5 gap-10'>
+    <div className='flex p-4 gap-5 border-b-2'>
         <Logo/>
         <NavigationList/>
     </div>
