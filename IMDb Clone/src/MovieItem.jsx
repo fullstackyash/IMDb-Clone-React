@@ -2,7 +2,7 @@ import React from 'react'
 
 function MovieItem() {
   return (
-    <div className="h-40 w-20 bg-cover bg-[url(https://streamcoimg-a.akamaihd.net/000/303/7076/3037076-Banner-L2-2056663bf4014f6dddb5dd9a2f026bce.jpg)]">
+    <div className="ml-10 h-400 w-40 bg-contain bg-no-repeat bg-[url(https://www.tallengestore.com/cdn/shop/products/Joker_-_Put_On_A_Happy_Face_-_Joaquin_Phoenix_-_Hollywood_English_Movie_Poster_3_323b577e-3bbb-4080-ba96-c144869378a3.jpg?v=1579504974)]">
 
     </div>
   )

@@ -3,10 +3,17 @@ import MovieItem from './MovieItem'
 
 function MovieList() {
   return (
-    <div>
-        <h1 className='text-center'>Movies</h1>
-        <MovieItem/>
-
+    <div className='pt-5'>
+        <h1 className='text-center font-bold'>Movies</h1>
+        <div className='flex flex-row mt-5'>
+            <MovieItem/>
+            <MovieItem/>
+            <MovieItem/>
+            <MovieItem/>
+            <MovieItem/>
+            <MovieItem/>
+            <MovieItem/>
+        </div>
     </div>
   )
 }
