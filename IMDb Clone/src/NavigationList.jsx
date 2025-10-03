@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function NavigationList() {
   return (
     <div className='content-center gap-10'>
-        <a className='ml-10 font-bold hover:text-blue-500' href='/'>Home</a>
-        <a className='ml-10 font-bold hover:text-blue-500' href='/movies'>Movies</a>
+        <Link className='ml-10 font-bold hover:text-blue-500' to='/'>Home</Link>
+        <Link className='ml-10 font-bold hover:text-blue-500' to='/movies'>Movies</Link>
     </div>
   )
 }
