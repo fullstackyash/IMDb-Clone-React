@@ -3,9 +3,9 @@ import MovieItem from './MovieItem'
 
 function MovieList() {
   return (
-    <div className='pt-5'>
+    <div className='p-5'>
         <h1 className='text-center font-bold'>Movies</h1>
-        <div className='flex flex-row mt-5'>
+        <div className='flex flex-row flex-wrap justify-around mt-5'>
             <MovieItem/>
             <MovieItem/>
             <MovieItem/>
