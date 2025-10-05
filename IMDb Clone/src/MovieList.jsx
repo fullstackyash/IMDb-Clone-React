@@ -16,7 +16,7 @@ function MovieList() {
         <h1 className='text-center font-bold'>Movies</h1>
         <div className='flex flex-row flex-wrap justify-center mt-5 gap-5'>
             {movies.map((movie)=>{
-               return <MovieItem/>
+               return <MovieItem poster_path={movie.poster_path}/>
             })}
         </div>
     </div>
