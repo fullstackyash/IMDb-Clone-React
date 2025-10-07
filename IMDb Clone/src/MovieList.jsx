@@ -19,6 +19,11 @@ function MovieList() {
                return <MovieItem poster_path={movie.poster_path} original_title={movie.original_title}/>
             })}
         </div>
+        <div className='pagination flex justify-center'>
+            <button className='prev'>Prev</button>
+            <div className='pagination-count'>1</div>
+            <button className='next'>Next</button>
+        </div>
     </div>
   )
 }
