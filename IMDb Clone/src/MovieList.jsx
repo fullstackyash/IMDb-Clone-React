@@ -20,9 +20,9 @@ function MovieList() {
             })}
         </div>
         <div className='pagination flex justify-center'>
-            <button className='prev'>Prev</button>
-            <div className='pagination-count'>1</div>
-            <button className='next'>Next</button>
+            <button className='prev'> Prev </button>
+            <div className='pagination-count'> 1 </div>
+            <button className='next'> Next </button>
         </div>
     </div>
   )
