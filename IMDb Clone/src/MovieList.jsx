@@ -21,9 +21,9 @@ function MovieList() {
             })}
         </div>
         <div className='pagination flex justify-center mt-5'>
-            <button className='prev bg-sky-500 hover:bg-sky-700 p-1 rounded-xl text-xs font-bold' onClick={()=>{pageCount>1 && setPageCount(pageCount-1)}}> Prev </button>
+            <button className='prev bg-sky-500 hover:bg-sky-700 p-2 rounded-4xl text-xs font-bold' onClick={()=>{pageCount>1 && setPageCount(pageCount-1)}}> <i class="fa-solid fa-arrow-left"></i> </button>
             <div className='pagination-count p-2  text-xs font-bold'> {pageCount} </div>
-            <button className='next bg-sky-500 hover:bg-sky-700 p-1 rounded-xl text-xs font-bold' onClick={()=>{setPageCount(pageCount+1)}}> Next </button>
+            <button className='next bg-sky-500 hover:bg-sky-700 p-2 rounded-4xl text-xs font-bold' onClick={()=>{setPageCount(pageCount+1)}}> <i class="fa-solid fa-arrow-right"></i> </button>
         </div>
     </div>
   )
