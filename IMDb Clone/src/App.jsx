@@ -5,7 +5,7 @@ import './App.css'
 import Header from './Header'
 import Banner from './Banner'
 import MovieList from './MovieList'
-import Movies from './Movies'
+import Watchlist from './Watchlist'
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           
           <Route path="/" element={<div> <Header/> <Banner/> <MovieList/></div>} />
-          <Route path="/movies" element={<div> <Header/> <Movies/> </div>} />
+          <Route path="/watchlist" element={<div> <Header/> <Watchlist/> </div>} />
        </Routes>
       </BrowserRouter>
   )
