@@ -19,10 +19,10 @@ function MovieList() {
                return <MovieItem poster_path={movie.poster_path} original_title={movie.original_title}/>
             })}
         </div>
-        <div className='pagination flex justify-center'>
-            <button className='prev'> Prev </button>
-            <div className='pagination-count'> 1 </div>
-            <button className='next'> Next </button>
+        <div className='pagination flex justify-center mt-5'>
+            <button className='prev bg-sky-500 hover:bg-sky-700 p-1 rounded-xl text-xs font-bold'> Prev </button>
+            <div className='pagination-count p-2  text-xs font-bold'> 1 </div>
+            <button className='next bg-sky-500 hover:bg-sky-700 p-1 rounded-xl text-xs font-bold'> Next </button>
         </div>
     </div>
   )
