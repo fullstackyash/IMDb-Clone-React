@@ -3,6 +3,12 @@ import React from 'react'
 function Watchlist() {
   return (
     <>
+      <div className='flex flex-wrap justify-center m-4 gap-4'>
+        <div className='bg-blue-400 w-[9rem] h-[3rem] rounded-xl text-white font-bold flex justify-center items-center '>Action</div>
+        <div className='bg-gray-300 w-[9rem] h-[3rem] rounded-xl font-bold flex justify-center items-center'>Suspense</div>
+        <div className='bg-gray-300 w-[9rem] h-[3rem] rounded-xl font-bold flex justify-center items-center'>Thriller</div>
+      </div>
+
       <div className='flex justify-center my-10'>
         <input type="text" placeholder='Search Movies' className='w-[18rem] h-[3rem] bg-gray-200 outline-none p-4' />
       </div>
