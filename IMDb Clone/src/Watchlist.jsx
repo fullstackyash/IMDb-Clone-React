@@ -24,8 +24,8 @@ function Watchlist() {
               <td>6.5</td>
               <td>7</td>
               <td>Action</td>
+              <td className='text-red-800'>Delete</td>
             </tr>
-
           </tbody>
         </table>
       </div>
