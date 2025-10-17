@@ -28,7 +28,7 @@ function Watchlist() {
             <tr className='border-b-2'>
               <td className='flex items-center px-6 py-4'><img className='h-[25vh] w-[90px] mr-10' src={`https://www.tallengestore.com/cdn/shop/products/Joker_-_Joaquin_Phoenix_-_Hollywood_Action_Movie_Poster_4d1b0644-dd78-42f8-996a-5d0c5bdc21b5.jpg?v=1573629455`} /> Joker</td>
               <td>6.5</td>
-              <td>7</td>
+              <td>7.0</td>
               <td>Action</td>
               <td className='text-red-800'>Delete</td>
             </tr>
