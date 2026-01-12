@@ -5,7 +5,7 @@ function NavigationList() {
   return (
     <div className='content-center gap-10'>
         <Link className='ml-10 font-bold hover:text-blue-500' to='/'>Movies</Link>
-        <Link className='ml-10 font-bold hover:text-blue-500' to='/watchlist'>Watchlist</Link>
+        <Link className='ml-10 font-bold hover:text-blue-500' to='/watchlist'>Watchlists</Link>
     </div>
   )
 }
